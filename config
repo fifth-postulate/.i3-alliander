@@ -156,3 +156,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+bindsym $mod+t exec --no-startup-id emacsclient -c -a ""
+
+exec --no-startup-id emacs -daemon
