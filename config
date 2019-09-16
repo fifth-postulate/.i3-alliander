@@ -158,5 +158,6 @@ bar {
 }
 
 bindsym $mod+t exec --no-startup-id emacsclient -c -a ""
+bindsym $mod+p exec i3lock --color=000000 --nofork
 
 exec --no-startup-id emacs -daemon
