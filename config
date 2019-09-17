@@ -156,3 +156,4 @@ bindsym $mod+p exec i3lock --color=000000 --nofork
 
 exec --no-startup-id emacs -daemon
 exec --no-startup-id feh --bg-scale ~/Pictures/stars.jpg
+exec --no-startup-id dropbox start
